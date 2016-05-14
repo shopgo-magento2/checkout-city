@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2016 ShopGo. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="ShopGo\CheckoutCity\Api\Quote\Data\EstimateAddressInterface" type="ShopGo\CheckoutCity\Model\Quote\EstimateAddress"/>
+    <preference for="ShopGo\CheckoutCity\Api\Quote\GuestShippingMethodManagementInterface" type="ShopGo\CheckoutCity\Model\Quote\GuestCart\GuestShippingMethodManagement"/>
+    <preference for="ShopGo\CheckoutCity\Api\Quote\ShippingMethodManagementInterface" type="ShopGo\CheckoutCity\Model\Quote\ShippingMethodManagement"/>
+    <preference for="Magento\Quote\Model\Cart\CartTotalManagement" type="ShopGo\CheckoutCity\Model\Quote\Cart\CartTotalManagement"/>
+</config>
+
